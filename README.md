@@ -1,3 +1,8 @@
+<h1>CPRG 306 Assignments Repository></h1>
+<h2>Overview</h2>
+
+This is the main repository for all the assignments in the CPRG 306: Web development 2 course.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
