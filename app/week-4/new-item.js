@@ -21,7 +21,6 @@ function NewItem() {
 Quantity: ${quantity}
 Category: ${category}`);
 
-    // Reset state variables to initial values
     setName("");
     setQuantity(1);
     setCategory("produce");
@@ -55,7 +54,7 @@ Category: ${category}`);
 
   return (
     <main className="flex align-items justify-center">
-      <div className="w-full max-w-md bg-slate-800 text-black p-8 rounded-lg shadow-md mt-8">
+      <div className="w-full max-w-md bg-slate-300 text-black p-8 rounded-lg shadow-md mt-8">
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-4">
             <input
@@ -65,7 +64,7 @@ Category: ${category}`);
               value={name}
               onChange={handleNameChange}
               placeholder="Item name"
-              className="w-full px-4 py-2 rounded-lg border focus:outline-none focus:border-blue-500"
+              className="w-full px-6 py-2 rounded-lg border focus:outline-none focus:border-blue-500"
             ></input>
           </div>
 
@@ -95,7 +94,7 @@ Category: ${category}`);
 
           <button
             type="submit"
-            className="w-full py-2 px-4 bg-blue-500 hover:bg-blue-700 rounded-lg text-white"
+            className="w-full py-2 px-4 bg-yellow-500 hover:bg-green-700 rounded-lg text-red-900 font-semibold focus:outline-none focus:bg-green-700 transition-colors duration-300"
           >
             Submit
           </button>

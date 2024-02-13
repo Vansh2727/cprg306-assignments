@@ -1,11 +1,7 @@
 import NewItem from "./new-item";
 
-const Page = () => {
-  return (
-    <div>
-      <NewItem />
-    </div>
-  );
-};
+function Page() {
+  return <NewItem />;
+}
 
 export default Page;
